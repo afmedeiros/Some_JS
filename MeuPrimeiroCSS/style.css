@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'artart';
+    src: url(Joynoted\ Demo.ttf) format('truetype');
+
+}
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+#container{
+
+    height: 100%;
+    width: 100%; /* controla a largura, se for menor que 100% vai mostrar o fundo */
+    background-color: black;
+    
+    
+}
+
+#topo{
+
+    height: 20%;
+    width: 100%;
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+    border-radius: 95px 15px 95px 15px;
+
+        
+}
+
+#btntopo{
+ 
+    height: 40%;
+    width: 20%;
+    border: solid 5px goldenrod;
+    background-color: greenyellow;
+    border-radius: 10px 0px 10px 0px;
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+ 
+}
+
+#lbltopo{
+
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: artart;
+
+}
+
+#inttopo{
+
+        height: 20%;
+        width: 20%;        
+        flex-direction: column;
+        align-items: center;
+        background-color: lightcoral;         
+    
+}
+
+#meio{
+
+    height:70%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    
+}
+
+#meio-esquerda{
+
+    height: 100%;
+    width: 50%;
+    background-color: goldenrod;
+
+        
+}
+
+
+#meio-esquerda-cima{
+
+    height: 80%;
+    width: 100%;
+    background-color: chocolate;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+        
+}
+
+
+
+#meio-esquerda-baixo{
+
+    height: 20%;
+    width: 100%;
+    background-color: royalblue;
+    
+}
+
+.inpmeio
+{
+    height: 8%;
+    width: 20%;
+}
+
+#meio-direita{
+
+    height:100%;
+    width: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+#baixo{
+
+    height: 20%;
+    background-color: blue;
+
+}
